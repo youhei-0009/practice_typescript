@@ -1,4 +1,4 @@
-export const Practice1 = () => {
+export const Practice4 = () => {
     const calcTotalFee = (num: number) => {
         const total = num * 1.1;
         console.log(total);
@@ -9,8 +9,8 @@ export const Practice1 = () => {
     
     return (
         <div>
-            <p>Practice: Return type specification</p>
-            <button onClick={onClickPractice}>execute practice1</button>
+            <p>Practice: update tsconfig.json</p>
+            <button onClick={onClickPractice}>execute practice4</button>
         </div>
     );
 };
